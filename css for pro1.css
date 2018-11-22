@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {box-sizing: border-box}
+
+
+body {
+
+	    font-family: Verdana,sans-serif;
+    
+    line-height: 1.25;
+	max-width: 1500px;
+    margin: auto;
+    overflow-x: hidden;
+	  
+    font-size: 16px;
+   
+
+}
+
+div.update{ height:600px;}
+h1{ font-size:36px;}
+
+h2{ font-size:30px;}
+h3{ font-size:24px;}
+header {
+   padding: 1em; 
+   
+    color: white;    
+    background:#E9633B;
+       
+    clear: left;
+    text-align: center;
+	width:100%;
+	
+}
+footer { padding: 1em;
+    color: white;
+      background:#E9633B;
+
+    clear: left;
+    text-align: center;
+	width:100%;
+	}
+	
+div.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 69%;
+    height: 1100px;
+	background-color:white;
+	
+	
+
+}
+div.tab button {
+    display: block;
+    background-color:light grey;
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+h1,h2,h3{
+	
+	font-family: "Segoe UI",Arial,sans-serif;     font-weight: 500;}
+
+button.accordion {
+    background-color:#4d394b;
+    color:white ;
+    cursor: pointer;
+   padding: 15px;
+    border: none;
+	width:100%;  
+	text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+   
+}
+div.tab button:hover {
+    background-color:#938C8C;
+}
+div.tab button.active {
+    background-color:white;
+}
+
+ button.accordion:hover {
+    background-color:#3D2C2C;
+}
+button.accordion.active{  background-color:#45C195; 
+   }
+
+ div.Acc1{ 
+ 
+ width:20%;
+ float: left; 
+ 
+ height:1100px;
+ background-color:#4d394b; 
+  font-size: 16px;
+  }
+  
+  
+
+ div.panel {  
+  
+    display: none;
+	width:100%;
+    text-align:left;
+    background-color: white;
+	 font-size: 16px;
+ }
+ 
+div.mari {
+
+	width:11%;
+	height:1100px;
+float:right;
+
+ background-color:white;
+
+ font-size:12px; 
+   list-style:none;
+  
+	}
+	sup{ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; font-size:10px; color:red; font-style:italic; }
+
+a{ text-decoration:none; text-justify:auto; text-align:left;
+ color:rgba(23,22,19,1.00);}
